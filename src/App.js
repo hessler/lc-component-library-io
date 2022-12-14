@@ -1,13 +1,17 @@
 import React from "react";
-import { ButtonItem } from "./components/ButtonItem/ButtonItem";
+import {
+  ButtonItem,
+  ButtonSizes,
+  ButtonVariants,
+} from "./lib/ButtonItem/ButtonItem";
 
 function App() {
   return (
     <ButtonItem
       attributes={{ type: "button " }}
       text="Primary Button"
-      size="medium"
-      variant="Primary"
+      size={ButtonSizes.medium}
+      variant={ButtonVariants.primary}
     />
   );
 }

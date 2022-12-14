@@ -1,17 +1,29 @@
 {
-  "name": "@lifechurch-io/component-library",
-  "version": "0.1.0",
-  "source": "src/index.js",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "name": "@hessler/lc-component-library-io",
+  "version": "0.0.8",
+  "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
+  "license": "ISC",
+  "main": "dist/index.cjs..js",
+  "module": "dist/index.esm.js",
   "files": [
     "dist",
     "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hessler/lc-component-library-io"
+    "url": "git+https://github.com/hessler/lc-component-library-io.git"
   },
+  "description": "Repository for the custom, shared component library for the Life.Church Interactive Web Services team.",
+  "bugs": {
+    "url": "https://github.com/hessler/lc-component-library-io/issues"
+  },
+  "homepage": "https://github.com/hessler/lc-component-library-io#readme",
+  "keywords": [
+    "components",
+    "library",
+    "react",
+    "life.church"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,57 +34,18 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
-    "eslint": "8.15.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-import-resolver-node": "0.3.6",
-    "eslint-plugin-cypress": "2.12.1",
-    "eslint-plugin-jasmine": "2.10.1",
-    "eslint-plugin-jest": "26.1.1",
-    "eslint-plugin-jest-dom": "4.0.1",
-    "eslint-plugin-jsdoc": "37.9.6",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.29.2",
-    "eslint-plugin-react-hooks": "4.3.0",
-    "eslint-plugin-testing-library": "5.0.5",
-    "npm-run-all": "^4.1.5",
-    "prettier": "2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.4.0",
     "sass": "^1.56.2"
   },
   "peerDependencies": {
-    "eslint": "8.15.0",
-    "prettier": ">=2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": ">16",
+    "react-dom": ">16"
   },
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build-watch": "rollup -c -w",
-    "start-playground": "cd playground && npm run start",
-    "reset:node": "rm -rf node_modules || true && rm -rf package-lock.json || true && cd playground && rm -rf node_modules || true && rm -rf package-lock.json || true",
-    "install:all": "npm i && cd playground && npm i",
-    "dev": "npm-run-all --parallel build-watch start-playground"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "reset:node": "rm -rf node_modules || true && rm -rf package-lock.json || true",
+    "start": "react-scripts start"
   }
 }

@@ -2,35 +2,14 @@
 
 Repository for the custom, shared component library for the Life.Church Interactive Web Services team.
 
-## Available Scripts
+## Set Up and Use the Library
 
-### `npm run build`
+To install and get set up in your React project, run the following command in the project's main directory:
 
-Triggers the library to build using [Rollup.js](https://rollupjs.org/)
-
-### `npm run build-watch`
-
-Triggers the library to build in `watch` mode using [Rollup.js](https://rollupjs.org/).
-
-### `npm run start-playground`
-
-Triggers the library's Playground app to start.
-
-### `npm run install:all`
-
-Install all packages in all library directories.
-
-### `npm run dev`
-
-Run `build-watch` and `start-playground` in parallel.
+```shell
+npm i @hessler/lc-component-library-io
+```
 
 ## References
 
-### Guides and How-To Articles
-
-- [Build a React Component Library](https://hinammehra.medium.com/build-a-private-react-component-library-cra-rollup-material-ui-github-package-registry-1e14da93e790)
-
-### Packages and Libraries
-
-- [Babel](https://babeljs.io/)
-- [Rollup.js](https://rollupjs.org/)
+- [Creating a Library of React Components using Create React App](https://hackernoon.com/creating-a-library-of-react-components-using-create-react-app-without-ejecting-d182df690c6b)
