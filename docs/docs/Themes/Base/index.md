@@ -13,8 +13,11 @@ The `Base` theme represents the base theme and branding for our Life.Church prod
 import { Themes } from "@hessler/lc-component-library-io";
 
 const { colors: baseColors } = Themes.Base;
+const componentStyles = {
+  color: baseColors.utility.action.light,
+};
 
-<SampleComponent style={{ color: `${baseColors.utility.action.light}` }}>
+<SampleComponent style={componentStyles}>
   This text will be styled with the light action utility color.
 </SampleComponent>
 ```
