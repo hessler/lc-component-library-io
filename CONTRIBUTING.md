@@ -23,6 +23,12 @@ The Life.Church Web Services Component Library is a shared NPM package that is m
     - [Resolve Draft Status, Merge, and Publish](#resolve-draft-status-merge-and-publish)
   - [Documentation](#documentation)
   - [Package and Documentation Deployment](#package-and-documentation-deployment)
+    - [1. Update Versions](#1-update-versions)
+    - [2. Confirm with Project Development Lead](#2-confirm-with-project-development-lead)
+    - [3. Build Documentation Files](#3-build-documentation-files)
+    - [3. Commit and Merge to `main`](#3-commit-and-merge-to-main)
+    - [4. Build and Publish `npm` Package](#4-build-and-publish-npm-package)
+    - [5. Build and Deploy Documentation Site](#5-build-and-deploy-documentation-site)
   - [References](#references)
     - [Project References](#project-references)
     - [Development References](#development-references)
@@ -139,7 +145,11 @@ npm start
 
 ## Package and Documentation Deployment
 
-To build the and deploy the `npm` package and documentation site, update the `version` key for both the main `package.json` and the `/docs/package.json` files, incrementing as needed using [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html), where given a version number `MAJOR.MINOR.PATCH`, increment the:
+To build the and deploy the `npm` package and documentation site, a very intentional process and procedure must be followed to ensure everything is built and deployed in the proper order.
+
+### 1. Update Versions
+
+The first step is to update the `version` key for both the main `package.json` and the `/docs/package.json` files, incrementing as needed using [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html), where given a version number `MAJOR.MINOR.PATCH`, increment the:
 
 - MAJOR version when you make incompatible changes.
 - MINOR version when you add functionality in a backwards compatible manner.
@@ -147,7 +157,30 @@ To build the and deploy the `npm` package and documentation site, update the `ve
 
 The `version` numbers for both should be the same, as the documentation should **_always_** be updated along with a new build and publish to `npm`.
 
-When everything is updated and ready to go, confirm with the [project's development lead](https://github.com/hessler) and coordinate the deploy and publish to `npm`. The build and publish process invokes a few terminal commands, which will guide you through the process:
+### 2. Confirm with Project Development Lead
+
+When everything is updated and ready to go, confirm with the [project's development lead](https://github.com/hessler) and coordinate the deploy and publish process.
+
+### 3. Build Documentation Files
+
+To build the documentation files, invoke the following commands:
+
+```shell
+# Navigate to main project directory.
+cd /path/to/lc-component-library-io
+
+# Navigate to docs directory and build files.
+cd docs
+npm run build
+```
+
+### 3. Commit and Merge to `main`
+
+Ensure everything is merged and deployed to the project's `main` branch.
+
+### 4. Build and Publish `npm` Package
+
+To build and deploy to `npm`, invoke the following commands:
 
 ```shell
 # Navigate to main project directory.
@@ -158,10 +191,18 @@ npm run build
 
 # Publish the package to npm; launches interactive mode with prompts as needed.
 npm run publish:npm
+```
 
-# Build and deploy the documentation site.
+### 5. Build and Deploy Documentation Site
+
+Once the `npm` package is successfully published, deploy the documentation site files by invoking the following commands:
+
+```shell
+# Navigate to main project directory.
+cd /path/to/lc-component-library-io
+
+# Navigate to docs directory and deploy the documentation site.
 cd docs
-npm run build
 npm run deploy
 ```
 
