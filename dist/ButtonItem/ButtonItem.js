@@ -1,3 +1,6 @@
+import _objectSpread from "@babel/runtime/helpers/esm/objectSpread2";
+import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
+var _excluded = ["children", "size", "variant"];
 /**
  * @module ButtonItem
  */
@@ -19,16 +22,15 @@ import './ButtonItem.scss';
  * @param {string} tertiary - Tertiary style.
  */
 
-const ButtonSizes = {
+var ButtonSizes = {
   large: 'large',
   medium: 'medium',
-  small: 'small',
+  small: 'small'
 };
-
-const ButtonVariants = {
+var ButtonVariants = {
   primary: 'primary',
   secondary: 'secondary',
-  tertiary: 'tertiary',
+  tertiary: 'tertiary'
 };
 
 /**
@@ -41,22 +43,23 @@ const ButtonVariants = {
  *
  * @returns {React.ReactElement} The ButtonItem component.
  */
-function ButtonItem({ children, size, variant, ...passThroughProps }) {
-  const variantClass = variant ? `btn-${variant}` : null;
-  const sizeClass = size ? `size-${size}` : 'size-medium';
-  const btnClasses = `btn ${variantClass} ${sizeClass}`;
-  const propsClassName = passThroughProps?.className
-    ? passThroughProps.className
-    : '';
+function ButtonItem(_ref) {
+  var children = _ref.children,
+    size = _ref.size,
+    variant = _ref.variant,
+    passThroughProps = _objectWithoutProperties(_ref, _excluded);
+  var variantClass = variant ? "btn-".concat(variant) : null;
+  var sizeClass = size ? "size-".concat(size) : 'size-medium';
+  var btnClasses = "btn ".concat(variantClass, " ").concat(sizeClass);
+  var propsClassName = (passThroughProps === null || passThroughProps === void 0 ? void 0 : passThroughProps.className) ? passThroughProps.className : '';
 
   // Default type is button, but if `type` is specified in `...passThroughProps`
   // it will be overridden.
-  const finalAttrs = {
-    type: 'button',
-    ...passThroughProps,
-    className: [btnClasses, propsClassName].join(' '),
-  };
-  return <button {...finalAttrs}>{children}</button>;
+  var finalAttrs = _objectSpread(_objectSpread({
+    type: 'button'
+  }, passThroughProps), {}, {
+    className: [btnClasses, propsClassName].join(' ')
+  });
+  return /*#__PURE__*/React.createElement("button", finalAttrs, children);
 }
-
 export { ButtonItem, ButtonSizes, ButtonVariants };

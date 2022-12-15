@@ -1,10 +1,10 @@
 {
   "name": "@hessler/lc-component-library-io",
-  "version": "0.0.8",
+  "version": "0.0.17",
   "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
   "license": "ISC",
-  "main": "dist/index.cjs..js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "files": [
     "dist",
     "README.md"
@@ -34,17 +34,36 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "eslint": "8.15.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-node": "0.3.6",
+    "eslint-plugin-cypress": "2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jasmine": "2.10.1",
+    "eslint-plugin-jest": "26.1.1",
+    "eslint-plugin-jest-dom": "4.0.1",
+    "eslint-plugin-jsdoc": "37.9.6",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.2",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-testing-library": "5.0.5",
+    "prettier": "2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^3.4.0",
     "sass": "^1.56.2"
   },
   "peerDependencies": {
+    "eslint": "8.15.0",
+    "prettier": ">=2",
     "react": ">16",
     "react-dom": ">16"
   },
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "publish:npm": "npm publish",
     "reset:node": "rm -rf node_modules || true && rm -rf package-lock.json || true",
     "start": "react-scripts start"
   }

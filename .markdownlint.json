@@ -1,0 +1,15 @@
+{
+  "MD013": false,
+  "MD033": {
+    "allowed_elements": [
+      "a",
+      "b",
+      "blockquote",
+      "i",
+      "img",
+      "nobr",
+      "small",
+      "sup"
+    ]
+  }
+}

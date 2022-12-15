@@ -1,0 +1,48 @@
+/*---------------------------------------------------------
+  Global Elements
+---------------------------------------------------------*/
+* {
+  font-family: 'Proxima Nova', 'proxima_nova', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+}
+html,
+body {
+  background-color: #2d2d2e;
+}
+h1 {
+  font-size: 2.4375rem;
+  font-weight: 900;
+  letter-spacing: -0.0625rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem !important;
+}
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+p {
+  margin: 0.75rem 0;
+}
+a {
+  color: #009ecc;
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #009ecc;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*---------------------------------------------------------
+  Media Queries
+---------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.9375rem;
+  }
+}
