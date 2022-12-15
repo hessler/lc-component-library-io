@@ -62,24 +62,26 @@ To add a new component to the library, a few files and folders will need to be c
 
 ##### Component Directory and Files
 
-Add the component directory and files by creating a folder for the component in the `/src/lib` directory, along with its corresponding `{ComponentName}.js` file and, if needed, a `{ComponentName}.scss` file.
+Add the component directory and files by creating a folder for the component in the `/src/lib/Components` directory, along with its corresponding `{ComponentName}.js` file and, if needed, a `{ComponentName}.scss` file.
 
 ```shell
 📂 src
   📂 lib
-    📂 NewComponent
-      📄 NewComponent.js
-      📄 NewComponent.scss
+    📂 Components
+      📂 NewComponent
+        📄 NewComponent.js
+        📄 NewComponent.scss
 ```
 
-Add the component's corresponding markdown documentation file in the `/docs/docs/components` directory.
+Add the component's corresponding markdown documentation file in the `/docs/docs/Components` directory.
 
 ```shell
 📂 docs
   📂 docs
-    📂 components
-      📂 NewComponent
-        📄 index.md
+    📂 Components
+      📂 Global
+        📂 NewComponent
+          📄 index.md
 ```
 
 #### Write Out Component

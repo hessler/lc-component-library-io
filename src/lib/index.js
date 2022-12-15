@@ -4,5 +4,6 @@ import {
   ButtonSizes,
   ButtonVariants,
 } from './ButtonItem/ButtonItem';
+import * as Themes from './Themes';
 
-export { ButtonItem, ButtonSizes, ButtonVariants };
+export { ButtonItem, ButtonSizes, ButtonVariants, Themes };

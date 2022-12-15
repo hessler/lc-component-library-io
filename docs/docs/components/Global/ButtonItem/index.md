@@ -4,7 +4,7 @@ The `ButtonItem` represents a general purpose button element that can be configu
 
 ## Using the Component
 
-```js
+```jsx
 import {
   ButtonItem,
   ButtonSizes,
@@ -30,5 +30,4 @@ The following properties are available:
 - `{object} props` - The component props object.
 - `{React.ReactElement} props.children` - The children elements to render as content for the button element.
 - `{ButtonSizes} [props.size]` - The size value of the button (Default: ButtonSizes.medium).
-- `{string} props.text` - The text value to use in the button element.
 - `{ButtonVariants} [props.variant]` - The variant of the button (Default: ButtonVariants.primary).

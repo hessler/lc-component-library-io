@@ -6,7 +6,7 @@ The `TemplateComponent` represents a general purpose div element that can be con
 
 ## Using the Component
 
-```js
+```jsx
 // Add sample markup for using the component. For example:
 import { TemplateComponent } from "@hessler/lc-component-library-io";
 

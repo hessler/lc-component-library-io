@@ -25,7 +25,6 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        pages: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
