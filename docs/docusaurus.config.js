@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const title = 'Life.Church Web Services Component Library';
 
 const config = {
-  baseUrl: '/lc-component-library-io/',
+  baseUrl: '/lc-component-library-io/docs/',
   deploymentBranch: 'gh-pages', // The name of the GitHub deployment branch.
   favicon: 'https://www.life.church/favicon-32x32.png',
   i18n: {
