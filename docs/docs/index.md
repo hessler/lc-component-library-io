@@ -9,5 +9,5 @@ title: Home
 
 ## Library Structure
 
-- [**`Components`**](/Components/index.md) directory holding all UI components.
-- [**`Themes`**](/Themes/index.md) directory holding all theme and branding resources.
+- **`Components`** directory holding all UI components.
+- **`Themes`** directory holding all theme and branding resources.
