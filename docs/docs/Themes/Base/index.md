@@ -9,7 +9,6 @@ The `Base` theme represents the base theme and branding for our Life.Church prod
 ## Using the Theme
 
 ```jsx
-// Add sample markup for using the component. For example:
 import { Themes } from "@hessler/lc-component-library-io";
 
 const { colors: baseColors } = Themes.Base;
