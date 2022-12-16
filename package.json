@@ -1,6 +1,6 @@
 {
   "name": "@hessler/lc-component-library-io",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
   "license": "ISC",
   "main": "dist/*",
@@ -9,7 +9,6 @@
     "README.md"
   ],
   "exports": {
-    ".": "./dist/*.js",
     "./components": "./dist/components",
     "./themes": "./dist/themes",
     "./utils": "./dist/utils"

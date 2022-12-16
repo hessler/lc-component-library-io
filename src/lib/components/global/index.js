@@ -1,8 +1,6 @@
 /* eslint-disable jsdoc/require-file-overview */
-import {
+export {
   ButtonItem,
   ButtonSizes,
   ButtonVariants,
 } from './ButtonItem/ButtonItem';
-
-export { ButtonItem, ButtonSizes, ButtonVariants };
