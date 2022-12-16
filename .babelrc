@@ -1,6 +1,0 @@
-/* {
-  "presets": ["@babel/env", "@babel/preset-react"]
-} */
-{
-  "presets": [["react-app", { "absoluteRuntime": false }]]
-}

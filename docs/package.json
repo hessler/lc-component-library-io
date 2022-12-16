@@ -1,7 +1,21 @@
 {
   "name": "@hessler/lc-component-library-io-docs",
-  "version": "0.1.23",
+  "version": "0.1.25",
   "private": true,
+  "contributors": [
+    {
+      "name": "Anthony Hessler",
+      "email": "anthony.hessler@life.church",
+      "url": "https://github.com/hessler",
+      "github": "hessler",
+      "contributions": [
+        "bugfix",
+        "feature",
+        "documentation",
+        "test"
+      ]
+    }
+  ],
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

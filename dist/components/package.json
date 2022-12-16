@@ -1,0 +1,26 @@
+{
+  "name": "@hessler/lc-component-library-io.components",
+  "version": "0.1.25",
+  "description": "A library of shared components used in Life.Church Web Services team projects.",
+  "contributors": [
+    {
+      "name": "Anthony Hessler",
+      "email": "anthony.hessler@life.church",
+      "url": "https://github.com/hessler",
+      "github": "hessler",
+      "contributions": [
+        "bugfix",
+        "feature",
+        "documentation",
+        "test"
+      ]
+    }
+  ],
+  "homepage": "https://github.com/hessler/lc-component-library-io#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hessler/lc-component-library-io.git"
+  }
+}
