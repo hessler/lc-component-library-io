@@ -1,15 +1,15 @@
 # ButtonItem
 
-The `ButtonItem` represents a general purpose button element that can be configured with styles and functionality as needed. It comes built with logic for button size and variant, but is otherwise completely style- and functionality-agnostic, allowing for full flexibility of use across a variety of projects and contexts.
+The global `ButtonItem` component represents a general purpose button element that can be configured with styles and functionality as needed. It comes built with logic for button size and variant, but is otherwise completely style- and functionality-agnostic, allowing for full flexibility of use across a variety of projects and contexts.
 
 ## Using the Component
 
 ```jsx
 import {
-  ButtonItem,
-  ButtonSizes,
-  ButtonVariants,
-} from "@hessler/lc-component-library-io/components";
+  GlobalButtonItem as ButtonItem,
+  GlobalButtonSizes as ButtonSizes,
+  GlobalButtonVariants as ButtonVariants,
+} from "@hessler/lc-component-library-io";
 
 <ButtonItem
   className="my-button-class-name"

@@ -1,6 +1,6 @@
 /* eslint-disable jsdoc/require-file-overview */
 export {
-  ButtonItem,
-  ButtonSizes,
-  ButtonVariants,
+  ButtonItem as GlobalButtonItem,
+  ButtonSizes as GlobalButtonSizes,
+  ButtonVariants as GlobalButtonVariants,
 } from './ButtonItem/ButtonItem';

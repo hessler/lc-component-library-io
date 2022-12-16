@@ -1,23 +1,22 @@
 ---
-title: Base
+title: 🧮 Base
 ---
 
-# Base Theme
+# 🧮 Base Theme
 
-The `base` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors`, which define a variety of color values for the theme.
+The `baseTheme` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors` and a variety of other , which define a variety of color values for the theme.
 
 ## Using the Theme
 
 ```jsx
-import { themes } from "@hessler/lc-component-library-io";
+import { baseTheme } from "@hessler/lc-component-library-io";
 
-const { colors: baseColors, theme: themeColors } = themes.Base;
 const componentBaseColorsStyles = {
-  color: baseColors.utility.action.light,
+  color: baseTheme.colors.utility.action.light,
 };
 const componentBaseColorsStyles = {
   backgroundColor: themeColors.backgrounds.backgroundActionColor,
-  color: themeColors.labels.labelActionColor
+  color: baseTheme.colors.labels.labelActionColor
 };
 
 <SampleComponent style={componentBaseColorsStyles}>
@@ -33,18 +32,22 @@ const componentBaseColorsStyles = {
 
 The following properties are available:
 
-- `{object} colors` - Base object of color values for the theme.
-- `{string} colors.black` - The hex value for black.
-- `{object} colors.canvas` - Object of values for canvases.
-- `{object} colors.gray` - Object of values for grays.
-- `{object} colors.labels` - Object of values for labels.
-- `{object} colors.ministryColors` - Object of values for ministry colors.
-- `{object} colors.text` - Object of values for text.
-- `{object} colors.utility` - Object of values for utilities.
-- `{string} colors.white` - The hex value for white.
-- `{object} theme` - Base object of theme colors, utilizing base theme color values.
-- `{object} theme.backgrounds` - Object of values for backgrounds.
-- `{object} theme.borders` - Object of values for borders.
-- `{object} theme.labels` - Object of values for labels.
-- `{object} theme.shadows` - Object of values for shadows.
-- `{object} theme.utility` - Object of values for utility colors.
+- `{object} backgrounds` - Object of color values for backgrounds.
+- `{object} borders` - Object of color values for borders.
+- `{ThemeColors} colors` - Base object of color values for the theme.
+- `{object} labels` - Object of color values for labels.
+- `{object} shadows` - Object of color values for shadows.
+- `{object} utility` - Object of color values for utility colors.
+
+## Typedefs
+
+### `ThemeColors`
+
+- `{string} black` - The hex value for black.
+- `{object} canvas` - Object of color values for canvases.
+- `{object} gray` - Object of color values for grays.
+- `{object} labels` - Object of color values for labels.
+- `{object} ministryColors` - Object of color values for ministry colors.
+- `{object} text` - Object of color values for text.
+- `{object} utility` - Object of color values for utilities.
+- `{string} white` - The hex value for white.

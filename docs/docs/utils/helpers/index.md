@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-title: Helpers
+title: 💁🏻‍♂️ Helpers
 ---
 
-# Helpers
+# 💁🏻‍♂️ Helpers
 
-The `helpers` package holds a variety of helper utility functions for the library.
+The `helpers` package contains a variety of helper utility functions for the library.

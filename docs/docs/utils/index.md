@@ -1,8 +1,8 @@
 ---
 sidebar_position: 4
-title: Utils
+title: 🛠️ Utils
 ---
 
-# Utils
+# 🛠️ Utils
 
-The `utils` package holds the available utilities for the library.
+The `utils` package contains the available utilities for the library.

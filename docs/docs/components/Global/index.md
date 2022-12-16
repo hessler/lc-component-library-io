@@ -1,7 +1,9 @@
 ---
-title: Global
+title: 🌎 Global
 ---
 
-# Global Components
+# 🌎 Global Components
 
-The `global` components holds the available global components for the library.
+The `global` components contains the available global components for the library.
+
+> 💁🏻‍♂️ **Note:** All components are exported with their directory-specific scope prefixed at the start of the component name _(e.g. `/components/global/ButtonItem` is exported as `GlobalButtonItem`)_.

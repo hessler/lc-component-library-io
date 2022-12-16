@@ -10,7 +10,7 @@
 
 ```jsx
 // Add sample markup for using the component. For example:
-import { titleCase } from "@hessler/lc-component-library-io/utils/helpers";
+import { titleCase } from "@hessler/lc-component-library-io";
 
 // returns 'Daily Power: 365 Days of Fuel for Your Soul'
 const correctedTitle = titleCase('daily power: 365 days of fuel for your soul');

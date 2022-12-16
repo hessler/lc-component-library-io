@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Home
+title: 🏠 Home
 ---
 
 # Components Documentation
@@ -9,6 +9,6 @@ title: Home
 
 ## Library Structure
 
-- **`Components`** directory holding all UI components.
-- **`Themes`** directory holding all theme and branding resources.
-- **`Utils`** directory holding all utility resources.
+- **`Components`** contains all UI components.
+- **`Themes`** contains theme and branding resources.
+- **`Utils`** contains utility resources.

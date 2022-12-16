@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
-title: Themes
+title: 🎨 Themes
 ---
 
-# Themes
+# 🎨 Themes
 
-The `themes` package holds the available themes for the library.
+The `themes` package contains the available themes for the library.

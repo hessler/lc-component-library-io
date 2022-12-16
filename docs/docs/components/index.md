@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-title: Components
+title: 🧱 Components
 ---
 
-# Components
+# 🧱 Components
 
-The `components` package holds the available components for the library.
+The `components` contains the available components for the library.
