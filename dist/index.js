@@ -4,7 +4,7 @@
 // export * as components from './components';
 // export { global } from './components';
 
-export { global } from './components';
+export * from './components/global';
 
 // export { base } from './themes';
 // export { helpers } from './utils';
