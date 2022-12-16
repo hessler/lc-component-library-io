@@ -25,9 +25,9 @@ The Life.Church Web Services Library is a shared NPM package that is maintained 
   - [Package and Documentation Deployment](#package-and-documentation-deployment)
     - [1. Update Versions](#1-update-versions)
     - [2. Confirm with Project Development Lead](#2-confirm-with-project-development-lead)
-    - [3. Build Documentation Files](#3-build-documentation-files)
+    - [3. Build Documentation and Package Files](#3-build-documentation-and-package-files)
     - [4. Commit and Merge to `main`](#4-commit-and-merge-to-main)
-    - [5. Build and Publish `npm` Package](#5-build-and-publish-npm-package)
+    - [5. Publish `npm` Package](#5-publish-npm-package)
     - [6. Build and Deploy Documentation Site](#6-build-and-deploy-documentation-site)
   - [References](#references)
     - [Project References](#project-references)
@@ -161,7 +161,7 @@ The `version` numbers for both should be the same, as the documentation should *
 
 When everything is updated and ready to go, confirm with the [project's development lead](https://github.com/hessler) and coordinate the deploy and publish process.
 
-### 3. Build Documentation Files
+### 3. Build Documentation and Package Files
 
 To build the documentation files, invoke the following commands:
 
@@ -172,22 +172,25 @@ cd /path/to/lc-component-library-io
 # Navigate to docs directory and build files.
 cd docs
 npm run build
+
+# Navigate to main project directory.
+cd ..
+
+# Bundle and transpile code inside `src/lib` into `dist` directory.
+npm run build
 ```
 
 ### 4. Commit and Merge to `main`
 
 Ensure everything is merged and deployed to the project's `main` branch.
 
-### 5. Build and Publish `npm` Package
+### 5. Publish `npm` Package
 
-To build and deploy to `npm`, invoke the following commands:
+To deploy to `npm`, invoke the following commands:
 
 ```shell
 # Navigate to main project directory.
 cd /path/to/lc-component-library-io
-
-# Bundle and transpile code inside `src/lib` into `dist` directory.
-npm run build
 
 # Publish the package to npm; launches interactive mode with prompts as needed.
 npm run publish:npm
