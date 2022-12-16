@@ -5,6 +5,8 @@
 // export { global } from './components';
 
 export * from './components/global';
+export * from './themes/base';
+export * from './utils/helpers';
 
 // export { base } from './themes';
 // export { helpers } from './utils';
