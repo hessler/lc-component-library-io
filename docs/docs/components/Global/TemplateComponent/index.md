@@ -8,7 +8,7 @@ The `TemplateComponent` represents a general purpose div element that can be con
 
 ```jsx
 // Add sample markup for using the component. For example:
-import { TemplateComponent } from "@hessler/lc-component-library-io";
+import { TemplateComponent } from "@hessler/lc-component-library-io/components";
 
 <TemplateComponent className="my-template-component-class">
   Primary Button Example

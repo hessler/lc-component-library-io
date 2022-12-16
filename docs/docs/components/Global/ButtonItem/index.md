@@ -9,7 +9,7 @@ import {
   ButtonItem,
   ButtonSizes,
   ButtonVariants,
-} from "@hessler/lc-component-library-io";
+} from "@hessler/lc-component-library-io/components";
 
 <ButtonItem
   className="my-button-class-name"

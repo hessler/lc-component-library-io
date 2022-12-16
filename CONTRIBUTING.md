@@ -1,12 +1,12 @@
-# Life.Church Web Services Component Library
+# Life.Church Web Services Library
 
-The Life.Church Web Services Component Library is a shared NPM package that is maintained and used by the [Life.Church Interactive Web Services team](https://life.church). Members of the team may be contributors to the project, and should familiarize themselves with the following information before contributing.
+The Life.Church Web Services Library is a shared NPM package that is maintained and used by the [Life.Church Interactive Web Services team](https://life.church). Members of the team may be contributors to the project, and should familiarize themselves with the following information before contributing.
 
 ---
 
 ## Table of Contents
 
-- [Life.Church Web Services Component Library](#lifechurch-web-services-component-library)
+- [Life.Church Web Services Library](#lifechurch-web-services-library)
   - [Table of Contents](#table-of-contents)
   - [Preamble](#preamble)
   - [Project Overview](#project-overview)
@@ -47,7 +47,7 @@ For VS Code, it is also assumed you have the appropriate extensions and settings
 
 ## Project Overview
 
-The shared component library is set up to distribute and export to [`npm`](https://npmjs.com/) as a shared package, installable by a variety of projects.
+The shared library is set up to distribute and export to [`npm`](https://npmjs.com/) as a shared package, installable by a variety of projects.
 
 ## Development
 
@@ -95,7 +95,7 @@ Add the component's corresponding markdown documentation file in the `/docs/docs
 Build and write out the component as needed, with the following tips in mind:
 
 - Make the component as style- and functionality-agnostic as possible, allowing for full flexibility of use across a variety of projects and contexts.
-  - This component library is intended to provide **_very_** customizable components that are not tied to one specific product or use case. As such, the intention is to provide each component with the necessary `props` to allow for customization by the consuming project, not defined within the library itself.
+  - This library is intended to provide **_very_** customizable components that are not tied to one specific product or use case. As such, the intention is to provide each component with the necessary `props` to allow for customization by the consuming project, not defined within the library itself.
 - Write clean, organized, error-free code, making use of `eslint` and `prettier` to ensure consistency between the development team.
 
 #### Include Component in Main `index.js` File

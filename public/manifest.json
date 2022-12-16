@@ -1,6 +1,6 @@
 {
-  "short_name": "LC Component Library",
-  "name": "Life.Church Web Services Component Library",
+  "short_name": "Web Services Library",
+  "name": "Life.Church Web Services Library",
   "icons": [
     {
       "src": "assets/images/favicon.ico",

@@ -7,7 +7,7 @@ import {
   ButtonItem,
   ButtonSizes,
   ButtonVariants,
-} from './lib/ButtonItem/ButtonItem';
+} from './lib/components/global/ButtonItem/ButtonItem';
 
 /**
  * Represents the main App view.

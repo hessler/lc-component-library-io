@@ -1,6 +1,6 @@
 {
   "name": "@hessler/lc-component-library-io-docs",
-  "version": "0.0.25",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

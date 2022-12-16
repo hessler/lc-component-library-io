@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const title = 'Life.Church Web Services Component Library';
+const title = 'Life.Church Web Services Library';
 
 const config = {
   baseUrl: '/lc-component-library-io/',

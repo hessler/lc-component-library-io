@@ -4,20 +4,28 @@ title: Base
 
 # Base Theme
 
-The `Base` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors`, which define a variety of color values for the theme.
+The `base` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors`, which define a variety of color values for the theme.
 
 ## Using the Theme
 
 ```jsx
-import { Themes } from "@hessler/lc-component-library-io";
+import { themes } from "@hessler/lc-component-library-io";
 
-const { colors: baseColors } = Themes.Base;
-const componentStyles = {
+const { colors: baseColors, theme: themeColors } = themes.Base;
+const componentBaseColorsStyles = {
   color: baseColors.utility.action.light,
 };
+const componentBaseColorsStyles = {
+  backgroundColor: themeColors.backgrounds.backgroundActionColor,
+  color: themeColors.labels.labelActionColor
+};
 
-<SampleComponent style={componentStyles}>
+<SampleComponent style={componentBaseColorsStyles}>
   This text will be styled with the light action utility color.
+</SampleComponent>
+
+<SampleComponent style={componentThemeColorsStyles}>
+  This element will be styled with light action background color and its text will be styled with the light action label color.
 </SampleComponent>
 ```
 
@@ -34,3 +42,9 @@ The following properties are available:
 - `{object} colors.text` - Object of values for text.
 - `{object} colors.utility` - Object of values for utilities.
 - `{string} colors.white` - The hex value for white.
+- `{object} theme` - Base object of theme colors, utilizing base theme color values.
+- `{object} theme.backgrounds` - Object of values for backgrounds.
+- `{object} theme.borders` - Object of values for borders.
+- `{object} theme.labels` - Object of values for labels.
+- `{object} theme.shadows` - Object of values for shadows.
+- `{object} theme.utility` - Object of values for utility colors.

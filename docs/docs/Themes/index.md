@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+title: Themes
+---
+
 # Themes
 
-The `Themes` package holds the available themes for the component library.
+The `themes` package holds the available themes for the library.

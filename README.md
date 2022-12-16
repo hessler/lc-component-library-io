@@ -1,6 +1,6 @@
-# Life.Church Web Services Component Library
+# Life.Church Web Services Library
 
-Repository for the custom, shared component library for the Life.Church Interactive Web Services team.
+Repository for the custom, shared library for the Life.Church Interactive Web Services team.
 
 ## Set Up and Use the Library
 
@@ -21,7 +21,7 @@ import {
   ButtonItem,
   ButtonSizes,
   ButtonVariants,
-} from "@hessler/lc-component-library-io";
+} from "@hessler/lc-component-library-io/components";
 
 <ButtonItem
   className="my-button-class-name"
