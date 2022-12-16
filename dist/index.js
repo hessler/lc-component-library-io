@@ -1,6 +1,7 @@
 /* eslint-disable jsdoc/require-file-overview */
 // export * from './components/global';
-export { global } from './components';
+export * as components from './components';
+// export { global } from './components';
 export { base } from './themes';
 export { helpers } from './utils';
 
