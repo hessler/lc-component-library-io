@@ -5,15 +5,14 @@
 export var black = '#000000';
 export var white = '#ffffff';
 export var gray = Object.freeze({
-  5: '#f7f7fa',
-  10: '#f2f2f7',
-  20: '#e8e8ee',
-  30: '#d2d2d9',
-  40: '#9a9aa2',
-  50: '#606064',
-  60: '#3d3d40',
-  70: '#2d2d2e',
-  80: '#1a1a1c'
+  5: '#f6f6f6',
+  10: '#ececec',
+  30: '#c6c6c6',
+  50: '#9f9fa0',
+  80: '#666667',
+  100: '#404041',
+  130: '#2d2d2e',
+  light: '#dad8d6'
 });
 export var canvas = Object.freeze({
   lightMode: {
@@ -123,6 +122,7 @@ export var labels = Object.freeze({
 export var utility = Object.freeze({
   action: {
     dark: '#00b3e5',
+    hover: '#008bb2',
     light: '#009ecc'
   },
   error: {

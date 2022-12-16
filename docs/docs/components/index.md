@@ -5,4 +5,4 @@ title: Components
 
 # Components
 
-The `Components` package holds the available components for the library.
+The `components` package holds the available components for the library.
