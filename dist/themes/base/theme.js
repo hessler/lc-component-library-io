@@ -49,6 +49,10 @@ export var theme = Object.freeze({
     borderTertiaryHoverColor: 'transparent'
   },
   /**
+   * All colors.
+   */
+  colors: colors,
+  /**
    * Label colors.
    */
   labels: {

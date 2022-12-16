@@ -62,6 +62,11 @@ export const theme = Object.freeze({
   },
 
   /**
+   * All colors.
+   */
+  colors,
+
+  /**
    * Label colors.
    */
   labels: {

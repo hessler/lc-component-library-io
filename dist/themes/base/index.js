@@ -2,7 +2,7 @@
 // import colors from './colors';
 // import theme from './theme';
 
-export * from './colors';
-export * from './theme';
+// export * as colors from './colors';
+export * as base from './theme';
 
 // export { colors, theme };
