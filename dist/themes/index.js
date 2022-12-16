@@ -1,2 +1,2 @@
 /* eslint-disable jsdoc/require-file-overview */
-export * as base from './base';
+export * as baseTheme from './base';
