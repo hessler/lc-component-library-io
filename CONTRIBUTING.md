@@ -26,9 +26,9 @@ The Life.Church Web Services Component Library is a shared NPM package that is m
     - [1. Update Versions](#1-update-versions)
     - [2. Confirm with Project Development Lead](#2-confirm-with-project-development-lead)
     - [3. Build Documentation Files](#3-build-documentation-files)
-    - [3. Commit and Merge to `main`](#3-commit-and-merge-to-main)
-    - [4. Build and Publish `npm` Package](#4-build-and-publish-npm-package)
-    - [5. Build and Deploy Documentation Site](#5-build-and-deploy-documentation-site)
+    - [4. Commit and Merge to `main`](#4-commit-and-merge-to-main)
+    - [5. Build and Publish `npm` Package](#5-build-and-publish-npm-package)
+    - [6. Build and Deploy Documentation Site](#6-build-and-deploy-documentation-site)
   - [References](#references)
     - [Project References](#project-references)
     - [Development References](#development-references)
@@ -174,11 +174,11 @@ cd docs
 npm run build
 ```
 
-### 3. Commit and Merge to `main`
+### 4. Commit and Merge to `main`
 
 Ensure everything is merged and deployed to the project's `main` branch.
 
-### 4. Build and Publish `npm` Package
+### 5. Build and Publish `npm` Package
 
 To build and deploy to `npm`, invoke the following commands:
 
@@ -193,7 +193,7 @@ npm run build
 npm run publish:npm
 ```
 
-### 5. Build and Deploy Documentation Site
+### 6. Build and Deploy Documentation Site
 
 Once the `npm` package is successfully published, deploy the documentation site files by invoking the following commands:
 
