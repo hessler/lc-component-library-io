@@ -1,2 +1,2 @@
 /* eslint-disable jsdoc/require-file-overview */
-export * from './helpers';
+export * as helpers from './helpers';

@@ -1,3 +1,8 @@
 /* eslint-disable jsdoc/require-file-overview */
-export * as colors from './colors';
-export * as theme from './theme';
+import colors from './colors';
+import theme from './theme';
+
+// export * as colors from './colors';
+// export * as theme from './theme';
+
+export { colors, theme };

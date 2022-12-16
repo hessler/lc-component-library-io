@@ -1,2 +1,2 @@
 /* eslint-disable jsdoc/require-file-overview */
-export * from './base';
+export * as base from './base';
