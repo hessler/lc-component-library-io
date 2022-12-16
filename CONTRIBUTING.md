@@ -1,12 +1,12 @@
-# Life.Church Web Services Library
+# Life.Church Web Services Web Tools Library
 
-The Life.Church Web Services Library is a shared NPM package that is maintained and used by the [Life.Church Interactive Web Services team](https://life.church). Members of the team may be contributors to the project, and should familiarize themselves with the following information before contributing.
+The Life.Church Web Services Web Tools Library is a shared NPM package that is maintained and used by the [Life.Church Interactive Web Services team](https://life.church). Members of the team may be contributors to the project, and should familiarize themselves with the following information before contributing.
 
 ---
 
 ## Table of Contents
 
-- [Life.Church Web Services Library](#lifechurch-web-services-library)
+- [Life.Church Web Services Web Tools Library](#lifechurch-web-services-web-tools-library)
   - [Table of Contents](#table-of-contents)
   - [Preamble](#preamble)
   - [Project Overview](#project-overview)

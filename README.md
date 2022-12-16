@@ -1,4 +1,4 @@
-# Life.Church Web Services Library
+# Life.Church Web Services Web Tools Library
 
 Repository for the custom, shared library for the Life.Church Interactive Web Services team.
 

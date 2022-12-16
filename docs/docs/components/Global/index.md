@@ -2,7 +2,7 @@
 title: 🌎 Global
 ---
 
-# 🌎 Global Components
+# Global Components
 
 The `global` components contains the available global components for the library.
 

@@ -3,9 +3,9 @@ sidebar_position: 1
 title: 🏠 Home
 ---
 
-# Components Documentation
+# Web Tools Documentation
 
-👋🏻 Welcome to the documentation section for the Life.Church Web Services Library! The library is available for use as a shared source of truth for global components used by the Life.Church Interactive team, specifically the Web Services team.
+👋🏻 Welcome to the documentation section for the Life.Church Web Services Web Tools Library! The library is available for use as a shared source of truth for global components, themes, and utilities used by the Life.Church Interactive team, specifically the Web Services team.
 
 ## Library Structure
 

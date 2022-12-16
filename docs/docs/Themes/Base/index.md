@@ -2,7 +2,7 @@
 title: 🧮 Base
 ---
 
-# 🧮 Base Theme
+# Base Theme
 
 The `baseTheme` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors` and a variety of other , which define a variety of color values for the theme.
 
@@ -15,7 +15,7 @@ const componentBaseColorsStyles = {
   color: baseTheme.colors.utility.action.light,
 };
 const componentBaseColorsStyles = {
-  backgroundColor: themeColors.backgrounds.backgroundActionColor,
+  backgroundColor: baseTheme.colors.backgrounds.backgroundActionColor,
   color: baseTheme.colors.labels.labelActionColor
 };
 

@@ -1,6 +1,6 @@
 {
-  "short_name": "Web Services Library",
-  "name": "Life.Church Web Services Library",
+  "short_name": "Web Tools Library",
+  "name": "Life.Church Web Services Web Tools Library",
   "icons": [
     {
       "src": "assets/images/favicon.ico",
