@@ -8,6 +8,6 @@
     "cypress/**/*.js",
     "src",
     "tests/**/*.js",
-    "global-components.js"
+    "global/components.js"
   ]
 }
