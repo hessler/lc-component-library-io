@@ -5,4 +5,4 @@ title: 💁🏻‍♂️ Helpers
 
 # Helpers
 
-The `helpers` package contains a variety of helper utility functions for the library.
+The `helpers` directory contains a variety of helper utility functions for the library.

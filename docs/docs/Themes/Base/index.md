@@ -1,29 +1,29 @@
 ---
-title: 🧮 Base
+title: 🏛️ Base
 ---
 
 # Base Theme
 
-The `baseTheme` theme represents the base theme and branding for our Life.Church products. It includes objects for `colors` and a variety of other , which define a variety of color values for the theme.
+The `base` theme represents the base theme and branding for Life.Church products. It includes values for branding `colors` and a variety of other properties useful for styling and theming a UI _(listed below)_.
 
 ## Using the Theme
 
 ```jsx
-import { baseTheme } from "@hessler/lc-component-library-io";
+import { base } from '@hessler/lc-component-library-io/dist/themes';
 
 const componentBaseColorsStyles = {
-  color: baseTheme.colors.utility.action.light,
+  color: base.colors.utility.action.light,
 };
-const componentBaseColorsStyles = {
-  backgroundColor: baseTheme.colors.backgrounds.backgroundActionColor,
-  color: baseTheme.colors.labels.labelActionColor
+const componentBaseOtherPropsStyles = {
+  backgroundColor: base.backgrounds.backgroundActionColor,
+  color: base.labels.labelActionColor
 };
 
 <SampleComponent style={componentBaseColorsStyles}>
   This text will be styled with the light action utility color.
 </SampleComponent>
 
-<SampleComponent style={componentThemeColorsStyles}>
+<SampleComponent style={componentBaseOtherPropsStyles}>
   This element will be styled with light action background color and its text will be styled with the light action label color.
 </SampleComponent>
 ```

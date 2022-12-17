@@ -5,4 +5,4 @@ title: 🧱 Components
 
 # Components
 
-The `components` contains the available components for the library.
+The `components` directory contains the available UI components for the library.

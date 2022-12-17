@@ -5,4 +5,4 @@ title: 🎨 Themes
 
 # Themes
 
-The `themes` package contains the available themes for the library.
+The `themes` directory contains the available themes for the library.

@@ -5,4 +5,4 @@ title: 🛠️ Utils
 
 # Utils
 
-The `utils` package contains the available utilities for the library.
+The `utils` directory contains the available utilities for the library.

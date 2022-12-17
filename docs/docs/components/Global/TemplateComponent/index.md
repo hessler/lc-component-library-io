@@ -9,11 +9,11 @@ The global `TemplateComponent` component represents a general purpose div elemen
 ```jsx
 // Add sample markup for using the component. For example:
 import {
-  GlobalTemplateComponent as TemplateComponent,
-} from "@hessler/lc-component-library-io";
+  TemplateComponent,
+} from "@hessler/lc-component-library-io/dist/components/global";
 
 <TemplateComponent className="my-template-component-class">
-  Primary Button Example
+  Placeholder template component content.
 </TemplateComponent>
 ```
 

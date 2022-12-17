@@ -2,5 +2,13 @@
   "presets": [
     ["react-app", { "absoluteRuntime": false }],
     "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["src"]
+      }
+    ]
   ]
 }

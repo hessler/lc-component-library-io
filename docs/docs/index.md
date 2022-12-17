@@ -9,6 +9,6 @@ title: 🏠 Home
 
 ## Library Structure
 
-- **`Components`** contains all UI components.
+- **`Components`** contains UI components.
 - **`Themes`** contains theme and branding resources.
 - **`Utils`** contains utility resources.
