@@ -1,3 +1,10 @@
 /* eslint-disable jsdoc/require-file-overview */
+/**
+ * "Be still, and know that I am God.
+ * I will be exalted among the nations,
+ * I will be exalted in the earth!”.
+ *
+ * Psalm 46:10 (ESV).
+ */
 // export { theme as baseTheme } from './base/theme';
-export * from './base/theme';
+// export * as baseTheme from './base/theme';
