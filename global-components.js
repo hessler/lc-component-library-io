@@ -1,2 +1,2 @@
 /* eslint-disable jsdoc/require-file-overview */
-export * from './components/global';
+export * from './dist/components/global';

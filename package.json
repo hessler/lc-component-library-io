@@ -1,6 +1,6 @@
 {
   "name": "@hessler/lc-component-library-io",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
   "license": "ISC",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "dist/themes/**/*",
     "dist/utils/**/*",
     "README.md",
-    "package.json"
+    "global-components.js"
   ],
   "exports": {
     ".": "./dist/index.js",
