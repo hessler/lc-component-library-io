@@ -1,6 +1,6 @@
 {
   "name": "@hessler/lc-component-library-io",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
   "license": "ISC",
   "main": "dist/index.js",
@@ -58,23 +58,23 @@
     "eslint-plugin-jasmine": "2.10.1",
     "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-jest-dom": "4.0.1",
-    "eslint-plugin-jsdoc": "37.9.6",
+    "eslint-plugin-jsdoc": "37.0.3",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.2",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-testing-library": "5.0.5",
     "prettier": "2.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "react-scripts": "^3.4.0",
     "sass": "^1.56.2"
   },
   "peerDependencies": {
     "eslint": "8.15.0",
     "prettier": ">=2",
-    "react": ">16",
-    "react-dom": ">16"
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
