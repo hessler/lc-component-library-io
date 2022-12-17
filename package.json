@@ -1,6 +1,6 @@
 {
   "name": "@hessler/lc-component-library-io",
-  "version": "0.2.16",
+  "version": "0.3.0",
   "author": "Anthony Hessler <anthony@hesslerdesign.com> (https://www.hesslerdesign.com/)",
   "license": "ISC",
   "main": "dist/index.js",
@@ -38,6 +38,13 @@
     "react",
     "life.church"
   ],
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__ && rm -rf dist/tests",
+    "publish:npm": "npm publish",
+    "reinstall": "npm run reset:node && npm install",
+    "reset:node": "rm -rf node_modules || true && rm -rf package-lock.json || true",
+    "test": "cross-env NODE_ENV=test jest --verbose --watch --bail 1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
@@ -48,13 +55,15 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "babel-jest": "26.1.0",
     "babel-plugin-module-resolver": "4.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "8.15.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-cypress": "2.12.1",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jasmine": "2.10.1",
     "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-jest-dom": "4.0.1",
@@ -64,6 +73,8 @@
     "eslint-plugin-react": "7.29.2",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-testing-library": "5.0.5",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "prettier": "2.5.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -75,11 +86,5 @@
     "prettier": ">=2",
     "react": ">=16",
     "react-dom": ">=16"
-  },
-  "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "publish:npm": "npm publish",
-    "reset:node": "rm -rf node_modules || true && rm -rf package-lock.json || true",
-    "start": "react-scripts start"
   }
 }

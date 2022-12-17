@@ -22,6 +22,7 @@ The Life.Church Web Services Web Tools Library is a shared NPM package that is m
     - [Create Merge/Pull Request](#create-mergepull-request)
     - [Resolve Draft Status, Merge, and Publish](#resolve-draft-status-merge-and-publish)
   - [Documentation](#documentation)
+  - [Available Scripts](#available-scripts)
   - [Package and Documentation Deployment](#package-and-documentation-deployment)
     - [1. Update Versions](#1-update-versions)
     - [2. Confirm with Project Development Lead](#2-confirm-with-project-development-lead)
@@ -140,6 +141,19 @@ To begin and launch the documentation on your local development machine, navigat
 cd /path/to/lc-component-library-io/docs
 npm start
 ```
+
+---
+
+## Available Scripts
+
+In the project directory, you can use the following commands:
+
+- `npm run build` Bundle and transpile code inside `src/lib` into `dist` directory.
+- `npm install` Install the project dependencies.
+- `npm run publish:npm` Initiates the publish process.
+- `npm run reinstall` Does a fresh install of all dependencies.
+- `npm run reset:node` Removes `node_modules` and `package-lock.json` in preparation for fresh install.
+- `npm run test` Runs test suite in `--watch` mode.
 
 ---
 

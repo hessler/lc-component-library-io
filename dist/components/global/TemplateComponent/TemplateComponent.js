@@ -1,12 +1,14 @@
-import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-var _excluded = ["children"];
-/**
- * @module ButtonItem
- */
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import "./TemplateComponent.scss";
+"use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.TemplateComponent = TemplateComponent;
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/objectWithoutProperties"));
+var _react = _interopRequireDefault(require("react"));
+require("./TemplateComponent.scss");
+var _excluded = ["children"];
 /**
  * Represents a simple, placeholder, template component for reference, which outputs a simple <div> with the specified content.
  *
@@ -17,7 +19,6 @@ import "./TemplateComponent.scss";
  */
 function TemplateComponent(_ref) {
   var children = _ref.children,
-    passThroughProps = _objectWithoutProperties(_ref, _excluded);
-  return /*#__PURE__*/React.createElement("div", passThroughProps, children);
+    passThroughProps = (0, _objectWithoutProperties2["default"])(_ref, _excluded);
+  return /*#__PURE__*/_react["default"].createElement("div", passThroughProps, children);
 }
-export { TemplateComponent };

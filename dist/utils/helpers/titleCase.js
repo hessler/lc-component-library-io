@@ -1,4 +1,11 @@
-import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.titleCase = titleCase;
+var _toConsumableArray2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/toConsumableArray"));
 /**
  * @module titleCase
  */
@@ -40,7 +47,7 @@ import _toConsumableArray from "@babel/runtime/helpers/esm/toConsumableArray";
  * @see {@link https://github.com/gouch/to-title-case}.
  *
  */
-export function titleCase(string) {
+function titleCase(string) {
   var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
     _ref$ignoreWords = _ref.ignoreWords,
     ignoreWords = _ref$ignoreWords === void 0 ? [] : _ref$ignoreWords,
@@ -55,6 +62,7 @@ export function titleCase(string) {
   var wordSeparators = /([ :–—-])/;
   var urls = [];
   var wordsToIgnore;
+  /* istanbul ignore next */
   if (ignoreWords) {
     if (!Array.isArray(ignoreWords) || !ignoreWords.every(function (element) {
       return typeof element === 'string';
@@ -67,7 +75,7 @@ export function titleCase(string) {
         return String(element).toLowerCase();
       });
     } else {
-      wordsToIgnore = _toConsumableArray(ignoreWords);
+      wordsToIgnore = (0, _toConsumableArray2["default"])(ignoreWords);
     }
   }
 
@@ -94,6 +102,7 @@ export function titleCase(string) {
     // Check for small words, skip first and last word, ignore title end and
     // subtitle start, ignore small words that start a hyphenated phrase.
     // This check is leveraged from GitHub repo specified in comments above.
+    /* istanbul ignore next */
     if (current.search(smallWords) > -1 && index !== 0 && index !== array.length - 1 && array[index - 3] !== ':' && array[index + 1] !== ':' && (array[index + 1] !== '-' || array[index - 1] === '-' && array[index + 1] === '-')) {
       return current.toLowerCase();
     }

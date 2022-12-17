@@ -1,10 +1,18 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.white = exports.utility = exports.text = exports.ministryColors = exports.labels = exports.gray = exports.canvas = exports.black = void 0;
 /**
  * @module Colors
  */
 
-export var black = '#000000';
-export var white = '#ffffff';
-export var gray = Object.freeze({
+var black = '#000000';
+exports.black = black;
+var white = '#ffffff';
+exports.white = white;
+var gray = Object.freeze({
   5: '#f6f6f6',
   10: '#ececec',
   30: '#c6c6c6',
@@ -14,7 +22,8 @@ export var gray = Object.freeze({
   130: '#2d2d2e',
   light: '#dad8d6'
 });
-export var canvas = Object.freeze({
+exports.gray = gray;
+var canvas = Object.freeze({
   lightMode: {
     primary: {
       dark: gray[80],
@@ -26,7 +35,8 @@ export var canvas = Object.freeze({
     }
   }
 });
-export var text = Object.freeze({
+exports.canvas = canvas;
+var text = Object.freeze({
   lightMode: {
     primary: {
       dark: black,
@@ -42,7 +52,8 @@ export var text = Object.freeze({
     }
   }
 });
-export var ministryColors = Object.freeze({
+exports.text = text;
+var ministryColors = Object.freeze({
   education: '#5b788c',
   families: '#3f3c40',
   globalMissions: '#00788c',
@@ -77,7 +88,8 @@ export var ministryColors = Object.freeze({
     worshipPurple: '#3e2b86'
   }
 });
-export var labels = Object.freeze({
+exports.ministryColors = ministryColors;
+var labels = Object.freeze({
   blue: {
     background: {
       dark: '#12718d',
@@ -119,7 +131,8 @@ export var labels = Object.freeze({
     }
   }
 });
-export var utility = Object.freeze({
+exports.labels = labels;
+var utility = Object.freeze({
   action: {
     dark: '#00b3e5',
     hover: '#008bb2',
@@ -142,3 +155,4 @@ export var utility = Object.freeze({
     light: '#ffba0c'
   }
 });
+exports.utility = utility;

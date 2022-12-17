@@ -42,9 +42,11 @@ const ButtonVariants = {
  * @returns {React.ReactElement} The ButtonItem component.
  */
 function ButtonItem({ children, size, variant, ...passThroughProps }) {
-  const variantClass = variant ? `btn-${variant}` : null;
+  const variantClass = variant ? `btn-${variant}` : '';
   const sizeClass = size ? `size-${size}` : 'size-medium';
-  const btnClasses = `btn ${variantClass} ${sizeClass}`;
+  const btnClasses = String(`btn ${variantClass} ${sizeClass}`)
+    .replace(/\s+/g, ' ')
+    .trim();
   const propsClassName = passThroughProps?.className
     ? passThroughProps.className
     : '';

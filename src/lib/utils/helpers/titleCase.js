@@ -56,6 +56,7 @@ export function titleCase(
   const urls = [];
 
   let wordsToIgnore;
+  /* istanbul ignore next */
   if (ignoreWords) {
     if (
       !Array.isArray(ignoreWords) ||
@@ -98,6 +99,7 @@ export function titleCase(
       // Check for small words, skip first and last word, ignore title end and
       // subtitle start, ignore small words that start a hyphenated phrase.
       // This check is leveraged from GitHub repo specified in comments above.
+      /* istanbul ignore next */
       if (
         current.search(smallWords) > -1 &&
         index !== 0 &&
