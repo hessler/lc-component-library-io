@@ -6,5 +6,5 @@
  *
  * Psalm 46:10 (ESV).
  */
-// export { theme as baseTheme } from './base/theme';
-export * as base from './base/theme';
+export { theme as base } from './base/theme';
+// export * as base from './base/theme';
